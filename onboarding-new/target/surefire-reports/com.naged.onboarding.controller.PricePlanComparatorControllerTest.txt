@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: com.naged.onboarding.controller.PricePlanComparatorControllerTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in com.naged.onboarding.controller.PricePlanComparatorControllerTest
+shouldRecommendLimitedCheapestPricePlansForMeterUsage  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.naged.onboarding.controller.PricePlanComparatorController.recommendCheapestPricePlans(String, java.lang.Integer)" because "this.controller" is null
+	at com.naged.onboarding.controller.PricePlanComparatorControllerTest.shouldRecommendLimitedCheapestPricePlansForMeterUsage(PricePlanComparatorControllerTest.java:102)
+
+shouldRecommendCheapestPricePlansMoreThanLimitAvailableForMeterUsage  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.naged.onboarding.controller.PricePlanComparatorController.recommendCheapestPricePlans(String, java.lang.Integer)" because "this.controller" is null
+	at com.naged.onboarding.controller.PricePlanComparatorControllerTest.shouldRecommendCheapestPricePlansMoreThanLimitAvailableForMeterUsage(PricePlanComparatorControllerTest.java:117)
+
+givenNoMatchingMeterIdShouldReturnNotFound  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.naged.onboarding.controller.PricePlanComparatorController.calculatedCostForEachPricePlan(String)" because "this.controller" is null
+	at com.naged.onboarding.controller.PricePlanComparatorControllerTest.givenNoMatchingMeterIdShouldReturnNotFound(PricePlanComparatorControllerTest.java:122)
+
+shouldCalculateCostForMeterReadingsForEveryPricePlan  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.naged.onboarding.controller.PricePlanComparatorController.calculatedCostForEachPricePlan(String)" because "this.controller" is null
+	at com.naged.onboarding.controller.PricePlanComparatorControllerTest.shouldCalculateCostForMeterReadingsForEveryPricePlan(PricePlanComparatorControllerTest.java:72)
+
+shouldRecommendCheapestPricePlansNoLimitForMeterUsage  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.naged.onboarding.controller.PricePlanComparatorController.recommendCheapestPricePlans(String, java.lang.Integer)" because "this.controller" is null
+	at com.naged.onboarding.controller.PricePlanComparatorControllerTest.shouldRecommendCheapestPricePlansNoLimitForMeterUsage(PricePlanComparatorControllerTest.java:87)
+

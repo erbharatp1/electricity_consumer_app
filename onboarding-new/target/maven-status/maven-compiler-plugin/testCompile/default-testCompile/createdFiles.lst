@@ -1,0 +1,7 @@
+com/naged/onboarding/service/MeterReadingServiceTest.class
+com/naged/onboarding/OnboardingApplicationTests.class
+com/naged/onboarding/domain/PricePlanTest.class
+com/naged/onboarding/service/AccountServiceTest.class
+com/naged/onboarding/controller/PricePlanComparatorControllerTest.class
+com/naged/onboarding/controller/MeterReadingControllerTest.class
+com/naged/onboarding/builder/MeterReadingsBuilder.class
